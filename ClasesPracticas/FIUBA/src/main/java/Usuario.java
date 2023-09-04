@@ -2,11 +2,11 @@ import java.util.ArrayList;
 
 public class Usuario {
 
-    public String nombre;
+    private String nombre;
 
-    public ArrayList<Materia> materiasAprobadas;
+    private ArrayList<Materia> materiasAprobadas;
 
-    public ArrayList<Carrera> carreras;
+    private ArrayList<Carrera> carreras;
 
     public Usuario(String nombre) {
         this.nombre = nombre;

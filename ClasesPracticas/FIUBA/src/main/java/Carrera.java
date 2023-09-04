@@ -2,13 +2,13 @@ import java.util.ArrayList;
 
 public class Carrera {
 
-    public String nombre;
+    private String nombre;
 
-    public ArrayList<Materia> materiasObligatorias;
+    private ArrayList<Materia> materiasObligatorias;
 
-    public ArrayList<Materia> materiasElectivas;
+    private ArrayList<Materia> materiasElectivas;
 
-    public Integer creditosMin;
+    private Integer creditosMin;
 
 
     public Carrera(String nombre) {

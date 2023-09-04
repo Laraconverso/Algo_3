@@ -1,8 +1,8 @@
 public class Materia {
 
-    public String codigo;
-    public String nombre;
-    public Integer creditos;
+    private String codigo;
+    private String nombre;
+    private Integer creditos;
 
     public Materia(String codigo, String nombre, Integer creditos) {
         this.codigo = codigo;
